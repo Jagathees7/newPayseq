@@ -2786,7 +2786,7 @@ label {
   }
   .header-section .navbar .navbar-brand .logo{
     max-width: 200px;
-    width: 200px;
+    /* width: 200px; */
   }
   .header-section .navbar .navbar-collapse .navbar-nav {
     height: 200px;
@@ -3663,5 +3663,32 @@ box-shadow: 0px 0px 22px 6px rgba(24,30,110,0.08);
 }
 .contactBg {
   background-color: #dbebf3;
+}
+
+@media (max-width: 574px){
+  .header-section .navbar .logo{
+    width: 150px;
+  }
+  .our-misson-vission{
+    padding: 30px;
+  }
+  .contact-us-form-align{
+    margin-top: 30px;
+  }
+}
+@media (min-width: 575px) and (max-width: 768px) {
+  .media-alignment{
+    margin-top: 20px;
+  }
+  .card-contents-adjust{
+    margin-bottom: 30px;
+  }
+  .our-misson-vission{
+    padding: 30px;
+  }
+  .contact-us-form-align{
+    margin-top: 30px;
+  }
+
 }
 /* ------------end package style ---------------- */
